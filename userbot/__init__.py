@@ -277,7 +277,7 @@ BITLY_TOKEN = os.environ.get(
     "BITLY_TOKEN") or "o_1fpd9299vp"
 
 # Bot Name
-TERM_ALIAS = os.environ.get("TERM_ALIAS", "Kyy-Userbot")
+TERM_ALIAS = os.environ.get("TERM_ALIAS", "Ezz-bot")
 
 # Bot Version
 BOT_VER = os.environ.get("BOT_VER", "3.1.0")
@@ -290,7 +290,7 @@ S_PACK_NAME = os.environ.get("S_PACK_NAME", None)
 
 # Default .alive Logo
 ALIVE_LOGO = os.environ.get(
-    "ALIVE_LOGO") or "https://telegra.ph/file/276d22aac9f400898cd27.jpg"
+    "ALIVE_LOGO") or "https://telegra.ph/file/6684d46f2d2276b18da7a.jpg"
 
 # Default .helpme Logo
 INLINE_PIC = os.environ.get(
