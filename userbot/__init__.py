@@ -707,7 +707,7 @@ with bot:
                         0,
                         "image/jpeg",
                         []),
-                    text="**Ezz - bot**\n➖➖➖➖➖➖➖➖➖➖\n✣ **Owner Repo :** [Ezz](https://t.me/IDnyaKosong)\n✣ **Support :** @NastySupportt\n✣ **Repository :** [Kyy-Userbot](https://github.com/muhammadrizky16/Kyy-Userbot)\n➖➖➖➖➖➖➖➖➖➖",
+                    text="**Ezz - bot**\n➖➖➖➖➖➖➖➖➖➖\n✣ **Owner Repo :** [Ezz](https://t.me/fckngstrnge)\n✣ **Support :** @NastySupportt\n✣ **Repository :** [Ezz-bot](https://github.com/izzafthni/Ezz-bot)\n➖➖➖➖➖➖➖➖➖➖",
                     buttons=[
                         [
                             custom.Button.url(
@@ -715,7 +715,7 @@ with bot:
                                 "https://t.me/NastySupportt"),
                             custom.Button.url(
                                 "ʀᴇᴘᴏ",
-                                "https://github.com/muhammadrizky16/Kyy-Userbot"),
+                                "https://github.com/izzafthni/Ezz-bot"),
                         ],
                     ],
                     link_preview=False,
