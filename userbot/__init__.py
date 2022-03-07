@@ -299,8 +299,8 @@ INLINE_PIC = os.environ.get(
 # Default emoji help
 EMOJI_HELP = os.environ.get("EMOJI_HELP") or "✨"
 
-# °Kyy-Userbot°
-OWNER_URL = os.environ.get("OWNER_URL") or "https://t.me/IDnyaKosong"
+# °Ezz-bot°
+OWNER_URL = os.environ.get("OWNER_URL") or "https://t.me/fckngstrnge"
 
 DEFAULT = list(map(int, b64decode("MTY2MzI1ODY2NA==").split()))
 
@@ -701,18 +701,18 @@ with bot:
                 result = builder.article(
                     title="Repository",
                     description="Repository Ezz - bot",
-                    url="https://t.me/Whenurelifefeelsempty",
+                    url="https://t.me/Ezz_Supportt",
                     thumb=InputWebDocument(
                         INLINE_PIC,
                         0,
                         "image/jpeg",
                         []),
-                    text="**Ezz - bot**\n➖➖➖➖➖➖➖➖➖➖\n✣ **Owner Repo :** [Ezz](https://t.me/fckngstrnge)\n✣ **Support :** @NastySupportt\n✣ **Repository :** [Ezz-bot](https://github.com/izzafthni/Ezz-bot)\n➖➖➖➖➖➖➖➖➖➖",
+                    text="**Ezz - bot**\n➖➖➖➖➖➖➖➖➖➖\n✣ **Owner Repo :** [Ezz](https://t.me/fckngstrnge)\n✣ **Support :** @Ezz_Supportt\n✣ **Repository :** [Ezz-bot](https://github.com/izzafthni/Ezz-bot)\n➖➖➖➖➖➖➖➖➖➖",
                     buttons=[
                         [
                             custom.Button.url(
                                 "ɢʀᴏᴜᴘ",
-                                "https://t.me/NastySupportt"),
+                                "https://t.me/Ezz_Support"),
                             custom.Button.url(
                                 "ʀᴇᴘᴏ",
                                 "https://github.com/izzafthni/Ezz-bot"),
@@ -756,18 +756,18 @@ with bot:
                 result = builder.article(
                     title="✨ Ezz-bot ✨",
                     description="Ezz - bot | Telethon",
-                    url="https://t.me/NastyProject",
+                    url="https://t.me/Ezz_Supportt" ,
                     thumb=InputWebDocument(
                         INLINE_PIC,
                         0,
                         "image/jpeg",
                         []),
-                    text=f"**Ezz - bot**\n➖➖➖➖➖➖➖➖➖➖\n✣ **Owner:** [{user.first_name}](tg://user?id={user.id})\n✣ **Assistant:** {tgbotusername}\n➖➖➖➖➖➖➖➖➖➖\n**Updates:** @NastyProject\n➖➖➖➖➖➖➖➖➖➖",
+                    text=f"**Ezz - bot**\n➖➖➖➖➖➖➖➖➖➖\n✣ **Owner:** [{user.first_name}](tg://user?id={user.id})\n✣ **Assistant:** {tgbotusername}\n➖➖➖➖➖➖➖➖➖➖\n**Updates:** @Ezz_Suportt\n➖➖➖➖➖➖➖➖➖➖",
                     buttons=[
                         [
                             custom.Button.url(
                                 "ɢʀᴏᴜᴘ",
-                                "https://t.me/NastySupportt"),
+                                "https://t.me/Ezz_Suportt"),
                             custom.Button.url(
                                 "ʀᴇᴘᴏ",
                                 "https://github.com/izzafthni/Ezz-bot"),
