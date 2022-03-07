@@ -13,7 +13,7 @@ async def startupmessage():
                 BOTLOG_CHATID,
                 "https://telegra.ph/file/02f87cca391f9b9d627d5.jpg",
                 caption="✨ **Ezz-bot Has Been Actived**!!\n━━━━━━━━━━━━━━━\n➠ **Userbot Version** - 8.0@master\n━━━━━━━━━━━━━━━\n➠ **Powered By:** @NastyProject ",
-                buttons=[(Button.url("ꜱᴜᴘᴘᴏʀᴛ", "https://t.me/NastySupportt"),)],
+                buttons=[(Button.url("ꜱᴜᴘᴘᴏʀᴛ", "https://t.me/Ezzsupport"),)],
             )
     except Exception as e:
         LOGS.error(e)
