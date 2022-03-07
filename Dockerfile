@@ -5,7 +5,7 @@ FROM kyyex/kyy-userbot:busterv2
 
 RUN apt-get update && apt-get upgrade -y
 RUN apt-get install ffmpeg -y
-RUN git clone -b Kyy-Userbot https://github.com/izzafthni/izzafth /root/userbot
+RUN git clone -b Kyy-Userbot https://github.com/izzafthni/Ezz-bot /root/userbot
 RUN mkdir /root/userbot/.bin
 RUN pip install --upgrade pip setuptools
 WORKDIR /root/userbot
