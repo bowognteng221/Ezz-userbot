@@ -1,7 +1,7 @@
 # Using Python Slim-Buster
 FROM kyyex/kyy-userbot:busterv2
 #━━━━━ Userbot Telegram ━━━━━
-#━━━━━ By Kyy-Userbot ━━━━━━
+#━━━━━ By Ezz-bot ━━━━━━
 
 RUN apt-get update && apt-get upgrade -y
 RUN apt-get install ffmpeg -y
