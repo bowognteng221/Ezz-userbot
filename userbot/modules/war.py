@@ -103,7 +103,7 @@ async def typewriter(typew):
 async def typewriter(typew):
     typew.pattern_match.group(1)
     await edit_or_reply(typew,
-                        "**MUKA BAPAK LU KEK KELAPA SAWIT ANJING, GA USAH NGATAIN ORANG, MUKA LU AJA KEK GEMBEL TEXAS KONTOL!!**"
+                        "**DUA TIGA IKAN TONGKOL,MUKA LU KEK KONTOL**"
                         )
 
 
