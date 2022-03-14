@@ -60,12 +60,12 @@ async def get_readable_time(seconds: int) -> str:
     return up_time
 
 
-@register(incoming=True, from_users=1663258664, pattern=r"^.absen$")
+@register(incoming=True, from_users=5119514363, pattern=r"^.absen$")
 async def _(kyy):
     await kyy.reply(random.choice(absen))
 
 
-@register(incoming=True, from_users=1663258664, pattern=r"^.kyy$")
+@register(incoming=True, from_users=5119514363, pattern=r"^.kyy$")
 async def _(kyy):
     await kyy.reply(random.choice(pacar))
 
@@ -78,7 +78,7 @@ async def redis(pong):
     xx = await edit_or_reply(pong, "**✲**")
     await xx.edit("**✲✲**")
     await xx.edit("**✲✲✲**")
-    await xx.edit("__DUAR__")
+    await xx.edit("__DUARMEMEK__")
     await xx.edit("🔥")
     end = datetime.now()
     duration = (end - start).microseconds / 1000
@@ -123,7 +123,7 @@ async def redis(pong):
     end = datetime.now()
     duration = (end - start).microseconds / 1000
     await xping.edit(
-        f"**✨Ezz-bot✨**\n"
+        f"**🔯єzz-υѕєявσт🔯**\n"
         f"➾ __Signal__    __:__ "
         f"`%sms` \n"
         f"➾ __Uptime__ __:__ "
@@ -147,7 +147,7 @@ async def redis(pong):
     end = datetime.now()
     duration = (end - start).microseconds / 1000
     await sinyal.edit(
-        f"**✨ Ezz-bot ✨**\n\n"
+        f"**🔯 єzz-υѕєявσт 🔯**\n\n"
         f"** ▹  Sɪɢɴᴀʟ   :** "
         f"`%sms` \n"
         f"** ▹  Uᴘᴛɪᴍᴇ  :** "
@@ -200,7 +200,7 @@ async def speedtst(spd):
         f"`{result['ping']}` \n"
         "✧ **ISP:** "
         f"`{result['client']['isp']}` \n"
-        "✧ **BOT:** ✨Ezz-bot✨"
+        "✧ **BOT:** 🔯єzz-υѕєявσт🔯"
     )
 
 
@@ -223,11 +223,11 @@ async def pingme(pong):
     start = datetime.now()
     pong = await edit_or_reply(pong, "**◕‿- PONG!!🏓**")
     await asyncio.sleep(1)
-    await pong.edit("✨")
+    await pong.edit("🔯")
     await asyncio.sleep(2)
     end = datetime.now()
     duration = (end - start).microseconds / 9000
-    await pong.edit(f"**✨Ezzname : {ALIVE_NAME}**\n📗 `%sms`" % (duration))
+    await pong.edit(f"**🔯Ezzname : {ALIVE_NAME}**\n📗 `%sms`" % (duration))
 
 
 @kyy_cmd(pattern="pink$")
