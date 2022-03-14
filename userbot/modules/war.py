@@ -8,7 +8,7 @@ async def typewriter(typew):
     typew.pattern_match.group(1)
     x = await edit_or_reply(typew, "**WOII**")
     sleep(1.5)
-    await x.edit("**JAMET KONTOL**")
+    await x.edit("**JAMET ANJING**")
     sleep(1.5)
     await x.edit("**CUMA MAU BILANG**")
     sleep(1.5)
@@ -33,7 +33,7 @@ async def typewriter(typew):
 async def typewriter(typew):
     typew.pattern_match.group(1)
     await edit_or_reply(typew,
-                        "**PASANG PP DULU NGENTOT,BIAR ORANG-ORANG PADA TAU BETAPA HINA NYA MUKA LU 😆**"
+                        "**PASANG PP DULU TOLOL,BIAR ORANG-ORANG PADA TAU BETAPA HINA NYA MUKA LU 😆**"
                         )
 
 
@@ -143,12 +143,12 @@ CMD_HELP.update(
         \n\n  •  **Syntax :** `{cmd}ded`\
         \n  •  **Function : **Nyuruh orang mati aja goblok wkwk\
         \n\n  •  **Syntax :** `{cmd}sokab`\
-        \n  •  **Function : **Ngeledek orang so kenal so dekat padahal kga kenal goblok\
+        \n  •  **Function : **Ngeledek orang so ganteng\
         \n\n  •  **Syntax :** `{cmd}gembel`\
         \n  •  **Function : **Ngeledek bapaknya si jamet\
         \n\n  •  **Syntax :** `{cmd}cuih`\
         \n  •  **Function : **Ngeludahin keluarganya satu satu wkwk\
-        \n\n**Klo mau Req, kosa kata dari lu Hubungi @IDnyaKosong**\
+        \n\n**Klo mau Req, kosa kata dari lu Hubungi @reugay**\
     "
     }
 )
