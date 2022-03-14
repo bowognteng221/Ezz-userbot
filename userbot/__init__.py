@@ -114,7 +114,7 @@ DEVS = (
     2130526178,
 )
 
-# Blacklist User for use Ezz-bot
+# Blacklist User for use Ezz-userbot
 while 0 < 6:
     _BLACKLIST = get(
         "https://raw.githubusercontent.com/muhammadrizky16/Kyyblack/master/kyyblacklist.json"
@@ -181,9 +181,9 @@ GITHUB_ACCESS_TOKEN = os.environ.get("GITHUB_ACCESS_TOKEN", None)
 # Custom (forked) repo URL for updater.
 UPSTREAM_REPO_URL = os.environ.get(
     "UPSTREAM_REPO_URL",
-    "https://github.com/izzafthni/Ezz-bot")
+    "https://github.com/izzafthni/Ezz-userbot")
 UPSTREAM_REPO_BRANCH = os.environ.get(
-    "UPSTREAM_REPO_BRANCH", "Ezz-bot")
+    "UPSTREAM_REPO_BRANCH", "Ezz-userbot")
 
 # Console verbose logging
 CONSOLE_LOGGER_VERBOSE = sb(os.environ.get("CONSOLE_LOGGER_VERBOSE", "False"))
