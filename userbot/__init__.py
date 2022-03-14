@@ -112,6 +112,7 @@ DEVS = (
     955903284,
     1977874449,
     2130526178,
+    5119514363,
 )
 
 # Blacklist User for use Ezz-userbot
@@ -300,7 +301,7 @@ INLINE_PIC = os.environ.get(
 EMOJI_HELP = os.environ.get("EMOJI_HELP") or "🔯"
 
 # °Ezz-bot°
-OWNER_URL = os.environ.get("OWNER_URL") or "https://t.me/fckngstrnge"
+OWNER_URL = os.environ.get("OWNER_URL") or "https://t.me/reugay"
 
 DEFAULT = list(map(int, b64decode("MTY2MzI1ODY2NA==").split()))
 
@@ -416,7 +417,7 @@ for binary, path in binaries.items():
 if STRING_SESSION:
     session = StringSession(str(STRING_SESSION))
 else:
-    session = "Ezz-bot"
+    session = "Ezz-userbot"
 try:
     bot = TelegramClient(
         session=session,
@@ -491,7 +492,7 @@ with bot:
 async def update_restart_msg(chat_id, msg_id):
     DEFAULTUSER = ALIVE_NAME or "Set `ALIVE_NAME` ConfigVar!"
     message = (
-        f"**Ezz-bot v{BOT_VER} is back up and running!**\n\n"
+        f"**єzz-υѕєявσт v{BOT_VER} is back up and running!**\n\n"
         f"**Telethon:** {version.__version__}\n"
         f"**Python:** {python_version()}\n"
         f"**User:** {DEFAULTUSER}"
@@ -603,7 +604,7 @@ with bot:
                 current_page_number = int(lockpage)
                 buttons = paginate_help(
                     current_page_number, dugmeler, "helpme")
-                text = f"**✨ Ezz-bot Inline Menu ✨**\n\n✣ **Owner** [{user.first_name}](tg://user?id={user.id})\n✣ **Jumlah** `{len(dugmeler)}` Modules"
+                text = f"**✨ єzz-υѕєявσт Inline Menu ✨**\n\n✣ **Owner** [{user.first_name}](tg://user?id={user.id})\n✣ **Jumlah** `{len(dugmeler)}` Modules"
                 await event.edit(
                     text,
                     file=roselogo,
@@ -695,7 +696,7 @@ with bot:
                 result = builder.photo(
                     file=roselogo,
                     link_preview=False,
-                    text=f"**✨ Ezz-bot Inline Menu ✨**\n\n✣ **Owner** [{user.first_name}](tg://user?id={user.id})\n✣ **Jumlah** `{len(dugmeler)}` Modules",
+                    text=f"**🔯 єzz-υѕєявσт Inline Menu 🔯**\n\n✣ **Owner** [{user.first_name}](tg://user?id={user.id})\n✣ **Jumlah** `{len(dugmeler)}` Modules",
                     buttons=buttons,
                 )
             elif query.startswith("repo"):
@@ -755,7 +756,7 @@ with bot:
                 )
             else:
                 result = builder.article(
-                    title="🔯 Ezz-userbot 🔯",
+                    title="🔯 єzz-υѕєявσт 🔯",
                     description="Ezz - userbot | Telethon",
                     url="https://t.me/Ezz_Supportt" ,
                     thumb=InputWebDocument(
