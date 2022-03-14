@@ -297,7 +297,7 @@ INLINE_PIC = os.environ.get(
     "INLINE_PIC") or "https://telegra.ph/file/276d22aac9f400898cd27.jpg"
 
 # Default emoji help
-EMOJI_HELP = os.environ.get("EMOJI_HELP") or "✨"
+EMOJI_HELP = os.environ.get("EMOJI_HELP") or "🔯"
 
 # °Ezz-bot°
 OWNER_URL = os.environ.get("OWNER_URL") or "https://t.me/fckngstrnge"
@@ -701,14 +701,14 @@ with bot:
             elif query.startswith("repo"):
                 result = builder.article(
                     title="Repository",
-                    description="Repository Ezz - bot",
+                    description="Repository Ezz - userbot",
                     url="https://t.me/Ezz_Supportt",
                     thumb=InputWebDocument(
                         INLINE_PIC,
                         0,
                         "image/jpeg",
                         []),
-                    text="**Ezz - bot**\n➖➖➖➖➖➖➖➖➖➖\n✣ **Owner Repo :** [Ezz](https://t.me/fckngstrnge)\n✣ **Support :** @Ezz_Supportt\n✣ **Repository :** [Ezz-bot](https://github.com/izzafthni/Ezz-bot)\n➖➖➖➖➖➖➖➖➖➖",
+                    text="**Ezz - userbot**\n➖➖➖➖➖➖➖➖➖➖\n✣ **Owner Repo :** [Ezz](https://t.me/fckngstrnge)\n✣ **Support :** @Ezz_Supportt\n✣ **Repository :** [Ezz-userbot](https://github.com/izzafthni/Ezz-userbot)\n➖➖➖➖➖➖➖➖➖➖",
                     buttons=[
                         [
                             custom.Button.url(
@@ -755,15 +755,15 @@ with bot:
                 )
             else:
                 result = builder.article(
-                    title="✨ Ezz-bot ✨",
-                    description="Ezz - bot | Telethon",
+                    title="🔯 Ezz-userbot 🔯",
+                    description="Ezz - userbot | Telethon",
                     url="https://t.me/Ezz_Supportt" ,
                     thumb=InputWebDocument(
                         INLINE_PIC,
                         0,
                         "image/jpeg",
                         []),
-                    text=f"**Ezz - bot**\n➖➖➖➖➖➖➖➖➖➖\n✣ **Owner:** [{user.first_name}](tg://user?id={user.id})\n✣ **Assistant:** {tgbotusername}\n➖➖➖➖➖➖➖➖➖➖\n**Updates:** @Ezz_Suportt\n➖➖➖➖➖➖➖➖➖➖",
+                    text=f"**Ezz - userbot**\n➖➖➖➖➖➖➖➖➖➖\n✣ **Owner:** [{user.first_name}](tg://user?id={user.id})\n✣ **Assistant:** {tgbotusername}\n➖➖➖➖➖➖➖➖➖➖\n**Updates:** @Ezz_Suportt\n➖➖➖➖➖➖➖➖➖➖",
                     buttons=[
                         [
                             custom.Button.url(
