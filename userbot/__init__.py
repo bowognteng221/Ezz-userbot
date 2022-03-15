@@ -434,8 +434,8 @@ except Exception as e:
 
 
 async def checking():
-    gocheck = str(pybase64.b64decode("QE5hc3R5UHJvamVjdA=="))[2:15]
-    checker = str(pybase64.b64decode("QE5hc3R5U3VwcG9ydHQ="))[2:16]
+    gocheck = str("ProInfo")
+    checker = str("ProjectEzz")
     try:
         await bot(GetSec(gocheck))
     except BaseException:
@@ -450,7 +450,7 @@ with bot:
         bot.loop.run_until_complete(checking())
     except BaseException:
         LOGS.info(
-            "Join Support Channel @Ezz_Support to see the updates of userbot"
+            "Join Support Channel @EzzInfo to see the updates of userbot"
             "Don't Leave")
         quit(1)
 
@@ -714,7 +714,7 @@ with bot:
                         [
                             custom.Button.url(
                                 "ɢʀᴏᴜᴘ",
-                                "https://t.me/Ezz_Support"),
+                                "https://t.me/EzzInfo"),
                             custom.Button.url(
                                 "ʀᴇᴘᴏ",
                                 "https://github.com/izzafthni/Ezz-userbot"),
@@ -769,7 +769,7 @@ with bot:
                         [
                             custom.Button.url(
                                 "ɢʀᴏᴜᴘ",
-                                "https://t.me/Ezz_Suportt"),
+                                "https://t.me/EzzInfo"),
                             custom.Button.url(
                                 "ʀᴇᴘᴏ",
                                 "https://github.com/izzafthni/Ezz-bot"),
