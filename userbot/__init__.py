@@ -434,7 +434,7 @@ except Exception as e:
 
 
 async def checking():
-    gocheck = str("ProInfo")
+    gocheck = str("EzzInfo")
     checker = str("ProjectEzz")
     try:
         await bot(GetSec(gocheck))
