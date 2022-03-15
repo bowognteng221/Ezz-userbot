@@ -255,7 +255,7 @@ YOUTUBE_API_KEY = os.environ.get(
     "YOUTUBE_API_KEY") or "AIzaSyACwFrVv-mlhICIOCvDQgaabo6RIoaK8Dg"
 
 # Untuk Perintah .ezzalive
-KYY_TEKS_KUSTOM = os.environ.get("EZZ_TEKS_KUSTOM", "I'am Using Ezz-bot✨")
+KYY_TEKS_KUSTOM = os.environ.get("EZZ_TEKS_KUSTOM", "I'am Using Ezz-userbot🔯")
 
 # Untuk Mengubah Pesan Welcome
 START_WELCOME = os.environ.get("START_WELCOME", None)
@@ -450,7 +450,7 @@ with bot:
         bot.loop.run_until_complete(checking())
     except BaseException:
         LOGS.info(
-            "Join Support Channel @EzzInfo to see the updates of userbot"
+            "Join Support Channel @ProjectEzz to see the updates of userbot"
             "Don't Leave")
         quit(1)
 
@@ -604,7 +604,7 @@ with bot:
                 current_page_number = int(lockpage)
                 buttons = paginate_help(
                     current_page_number, dugmeler, "helpme")
-                text = f"**✨ єzz-υѕєявσт Inline Menu ✨**\n\n✣ **Owner** [{user.first_name}](tg://user?id={user.id})\n✣ **Jumlah** `{len(dugmeler)}` Modules"
+                text = f"**🔯 єzz-υѕєявσт Inline Menu 🔯**\n\n✣ **Owner** [{user.first_name}](tg://user?id={user.id})\n❄ **Jumlah** `{len(dugmeler)}` Modules"
                 await event.edit(
                     text,
                     file=roselogo,
@@ -696,20 +696,20 @@ with bot:
                 result = builder.photo(
                     file=roselogo,
                     link_preview=False,
-                    text=f"**🔯 єzz-υѕєявσт Inline Menu 🔯**\n\n✣ **Owner** [{user.first_name}](tg://user?id={user.id})\n✣ **Jumlah** `{len(dugmeler)}` Modules",
+                    text=f"**🔯 єzz-υѕєявσт Inline Menu ❄**\n\n✣ **Owner** [{user.first_name}](tg://user?id={user.id})\n✣ **Jumlah** `{len(dugmeler)}` Modules",
                     buttons=buttons,
                 )
             elif query.startswith("repo"):
                 result = builder.article(
                     title="Repository",
                     description="Repository Ezz - userbot",
-                    url="https://t.me/Ezz_Supportt",
+                    url="https://t.me/ProjectEzz",
                     thumb=InputWebDocument(
                         INLINE_PIC,
                         0,
                         "image/jpeg",
                         []),
-                    text="**Ezz - userbot**\n➖➖➖➖➖➖➖➖➖➖\n✣ **Owner Repo :** [Ezz](https://t.me/reugay)\n✣ **Support :** @Ezz_Supportt\n✣ **Repository :** [Ezz-userbot](https://github.com/izzafthni/Ezz-userbot)\n➖➖➖➖➖➖➖➖➖➖",
+                    text="**Ezz - userbot**\n➖➖➖➖➖➖➖➖➖➖\n✣ **Owner Repo :** [Ezz](https://t.me/reugay)\n✣ **Support :** @EzzInfo\n✣ **Repository :** [Ezz-userbot](https://github.com/izzafthni/Ezz-userbot)\n➖➖➖➖➖➖➖➖➖➖",
                     buttons=[
                         [
                             custom.Button.url(
