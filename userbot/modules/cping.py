@@ -47,4 +47,4 @@ async def get_readable_time(seconds: int) -> str:
 
 @register(incoming=True, from_users=5119514363, pattern=r"^.cping$")
 async def _(rendy):
-    await Ezz.reply(random.choice(cping))
+    await ezz.reply(random.choice(cping))
